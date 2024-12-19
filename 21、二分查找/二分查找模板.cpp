@@ -24,9 +24,9 @@ int bSearch(vector<int>& nums, int t) {
 int main()
 {
     vector<int> v = { 1,2,3,4,6,7,8,9,9,11 };
-    cout << "¡Ý -1µÄ×îÐ¡ÖµµÄÏÂ±êÊÇ£º" << bSearch(v, -1) << endl;
-    cout << "¡Ý 5µÄ×îÐ¡ÖµµÄÏÂ±êÊÇ£º" << bSearch(v, 5) << endl;
-    cout << "¡Ý 9µÄ×îÐ¡ÖµµÄÏÂ±êÊÇ£º" << bSearch(v, 9) << endl;
-    cout << "¡Ý 12µÄ×îÐ¡ÖµµÄÏÂ±êÊÇ£º" << bSearch(v, 12) << endl;
+    cout << "â‰¥ -1çš„æœ€å°å€¼çš„ä¸‹æ ‡æ˜¯ï¼š" << bSearch(v, -1) << endl;
+    cout << "â‰¥ 5çš„æœ€å°å€¼çš„ä¸‹æ ‡æ˜¯ï¼š" << bSearch(v, 5) << endl;
+    cout << "â‰¥ 9çš„æœ€å°å€¼çš„ä¸‹æ ‡æ˜¯ï¼š" << bSearch(v, 9) << endl;
+    cout << "â‰¥ 12çš„æœ€å°å€¼çš„ä¸‹æ ‡æ˜¯ï¼š" << bSearch(v, 12) << endl;
     return 0;
 }

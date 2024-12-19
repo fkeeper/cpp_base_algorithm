@@ -8,7 +8,7 @@ using namespace std;
 
 edgeType graph[maxn][maxn];
 
-// ³õÊ¼»¯ÁÚ½Ó¾ØÕó
+// åˆå§‹åŒ–é‚»æ¥çŸ©é˜µ
 void initEdges(int n) {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -17,14 +17,14 @@ void initEdges(int n) {
     }
 }
 
-// ¼Ó±ß
+// åŠ è¾¹
 void addEdge(int u, int v, edgeType w) {
     if (graph[u][v] == inf || w < graph[u][v]) {
         graph[u][v] = w;
     }
 }
 
-// Dijkstra ¿ò¼Ü´úÂë
+// Dijkstra æ¡†æ¶ä»£ç 
 void dijkstra(int n, int s, edgeType dist[maxn]) {
     bool visited[maxn];
     for (int i = 0; i < n; ++i) {
@@ -81,10 +81,10 @@ int main()
         {5, 3, 1},
     };
 
-    // ³õÊ¼»¯
+    // åˆå§‹åŒ–
     initEdges(n);
 
-    // ½¨Í¼
+    // å»ºå›¾
     for (int i = 0; i < m; ++i) {
         addEdge(edges[i][0], edges[i][1], edges[i][2]);
     }
@@ -92,7 +92,7 @@ int main()
     int dist[maxn];
     dijkstra(n, 0, dist);
     for (int i = 0; i < n; ++i) {
-        cout << 0 << "µ½" << i << "µÄ×î¶ÌÂ·Îª" << dist[i] << endl;
+        cout << 0 << "åˆ°" << i << "çš„æœ€çŸ­è·¯ä¸º" << dist[i] << endl;
     }
 
     return 0;

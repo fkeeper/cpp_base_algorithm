@@ -16,7 +16,7 @@ string sorted;
 
 void dfs(int depth, int maxDepth) {
     if (depth == maxDepth) {
-        // stack ´æ´¢ÁË [0, maxDepth-1] µÄÈ«ÅÅÁÐ
+        // stack å­˜å‚¨äº† [0, maxDepth-1] çš„å…¨æŽ’åˆ—
         int i;
         for (i = 0; i < maxDepth; ++i) {
             int idx = stack[i];

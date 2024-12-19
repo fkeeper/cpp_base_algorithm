@@ -14,13 +14,13 @@ vType opt(vType a, vType b) {
 }
 
 void Knapsack01(int n, int V, int w[maxn], vType v[maxn], vType dp[maxn][maxv]) {
-    // 1. ��ʼ��
+    // 1. ≥ı ºªØ
     for (int i = 1; i <= V; ++i) {
         dp[0][i] = inf;
     }
     dp[0][0] = init;
 
-    // 2. ״̬ת��
+    // 2. ◊¥Ã¨◊™“∆
     for (int i = 1; i <= n; ++i) {
         for (int j = 0; j <= V; ++j) {
             if (j >= w[i]) {

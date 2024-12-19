@@ -77,16 +77,16 @@ int main()
         {5, 3, 1},
     };
 
-    // ³õÊ¼»¯
+    // åˆå§‹åŒ–
     initEdges(n, graph);
 
-    // ½¨Í¼
+    // å»ºå›¾
     for (int i = 0; i < m; ++i) {
         addEdge(graph, edges[i][0], edges[i][1], edges[i][2]);
     }
     // prim
     int dist[maxn];
-    cout << "×îĞ¡Éú³ÉÊ÷µÄ³¤¶ÈÎª£º" << prim(n, graph) << endl;
+    cout << "æœ€å°ç”Ÿæˆæ ‘çš„é•¿åº¦ä¸ºï¼š" << prim(n, graph) << endl;
 
     return 0;
 }

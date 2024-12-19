@@ -13,7 +13,7 @@ struct Dist {
     Dist() {}
     Dist(int _v, ValueType _w) : v(_v), w(_w) {}
     bool operator < (const Dist& d) const {
-        return w > d.w;        // –°∂•∂—
+        return w > d.w;        // Â∞èÈ°∂Â†Ü
     }
 };
 typedef priority_queue<Dist> Heap;
@@ -83,6 +83,6 @@ int main()
         cout << d[n - 1] << endl;
     }
 
-    // «Î‘⁄¥À ‰»Îƒ˙µƒ¥˙¬Î
+    // ËØ∑Âú®Ê≠§ËæìÂÖ•ÊÇ®ÁöÑ‰ª£Á†Å
     return 0;
 }

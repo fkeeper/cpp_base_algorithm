@@ -19,7 +19,7 @@ struct Dist {
     bool operator < (const Dist& d) const {
         return w > d.w;
     }
-    // Ğ¡¶¥¶Ñ
+    // ÃÂ¡Â¶Â¥Â¶Ã‘
 };
 
 typedef priority_queue<Dist> Heap;

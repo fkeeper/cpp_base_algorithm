@@ -11,6 +11,6 @@ public:
     }
 };
 
-// runningSum[i] = sum(nums[0]¡­nums[i]) = sum(nums[0]¡­nums[i-1]) + nums[i]
+// runningSum[i] = sum(nums[0]Â¡Â­nums[i]) = sum(nums[0]Â¡Â­nums[i-1]) + nums[i]
 //               = runningSum[i-1] + nums[i]
-// runningSum[i-1] = sum(nums[0]¡­nums[i-1])
+// runningSum[i-1] = sum(nums[0]Â¡Â­nums[i-1])
