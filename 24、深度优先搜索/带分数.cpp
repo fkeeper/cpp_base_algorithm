@@ -29,7 +29,7 @@ int cnt(int sum) {
     for (int i = 8; i >= 0; --i) {
         int x = sum / pow10[i];
         if (N <= x) {
-            break;
+            break;//提前剪枝
         }
         int y = N - x;
         int z = sum % pow10[i];
