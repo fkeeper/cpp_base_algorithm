@@ -72,7 +72,7 @@ int gcd(int a, int b) {
 }
 
 int lcm(int a, int b) {
-    return a / gcd(a, b) * b;
+    return a / gcd(a, b) * b;//先除再乘，防止溢出
 }
 
 int main()
